@@ -1,0 +1,51 @@
+.nav{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+}
+.men li{
+display: inline-block;
+margin-left: 15px;
+list-style: none;
+}
+.images{
+    display: block;
+    border-radius: 10%;
+    background: rgb(252, 252, 255);
+    height: 70px;
+    margin-right: 20px;
+
+}
+.container{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor:pointer
+}
+.shahado{
+  height: 200px;
+}
+.footer {
+  background: rgb(67, 25, 207);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both; /* stops float */
+}
+ 
